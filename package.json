@@ -1,0 +1,23 @@
+{
+  "name": "hostinger-ftp-deploy-starter",
+  "version": "0.1.0",
+  "description": "Vite starter + deploy script to upload dist/ to Hostinger via FTP/SFTP",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && node ./scripts/deploy.mjs"
+  },
+  "dependencies": {
+    "basic-ftp": "^4.7.0",
+    "dotenv": "^16.1.4",
+    "ssh2-sftp-client": "^10.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "example-site": {
+    "FTP_PROTOCOL": "sftp",
+    "FTP_HOST": "sftp.hostinger.com",
+    "FTP_PORT": 22,
+    "FTP_USER": "your_user",
+    "FTP_PASSWORD": "your_password",
+    "FTP_REMOTE_DIR": "/home/your_user/domains/example.com/public_html"
+  }
+}
